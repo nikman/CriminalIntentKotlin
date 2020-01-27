@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -44,6 +45,13 @@ class CrimeListFragment : Fragment() {
         fun newInstance(): CrimeListFragment {
             return CrimeListFragment()
         }
+    }
+
+    private inner class CrimeHolder(view: View) : RecyclerView.ViewHolder(view) {
+
+        val titleTextView: TextView = itemView.findViewById(R.id.crime_title)
+        val dateTextView: TextView = itemView.findViewById(R.id.crime_date)
+
     }
 
 }
