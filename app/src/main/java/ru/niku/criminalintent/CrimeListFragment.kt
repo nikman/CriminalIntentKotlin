@@ -83,7 +83,7 @@ class CrimeListFragment : Fragment() {
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CrimeHolder {
 
             val crimeViewType = getItemViewType(viewType)
-            var resId: Int
+            val resId: Int
 
             if (crimeViewType == 0) {
                 resId = R.layout.list_item_crime
