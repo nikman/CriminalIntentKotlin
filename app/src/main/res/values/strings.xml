@@ -8,4 +8,5 @@
     <string name="crime_list_item_title">Crime title</string>
     <string name="crime_list_item_date">Crime date</string>
     <string name="crime_list_item_call_button_text">Call police!</string>
+    <string name="crime_list_item_content_description">Handcuffs</string>
 </resources>
