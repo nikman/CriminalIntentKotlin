@@ -1,0 +1,2 @@
+# CriminalIntentKotlin
+Educational project
