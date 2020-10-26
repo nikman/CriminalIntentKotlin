@@ -5,7 +5,7 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import ru.niku.criminalintent.Crime
 
-@Database(entities = [Crime::class], version = 1)
+@Database(entities = [Crime::class], version = 3)
 @TypeConverters(CrimeTypeConverters::class)
 
 abstract class CrimeDatabase : RoomDatabase() {
